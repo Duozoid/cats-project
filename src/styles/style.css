@@ -166,12 +166,12 @@ width: 700px;
 
 }
 
-.img-one {
-  position: absolute;
-  top: 55px;
-  left: 296px;
+#map {
+  z-index: 99; 
 
-  height: 525px;
+top: 85px;
+left: 1000px;
+height: 600px;
 }
 
 .text {
@@ -482,6 +482,7 @@ background-color: rgb(224, 90, 41);
   color: var(--blue);
 }
 
+
 #myVideo {
   position: fixed;
   right: 0;
@@ -510,7 +511,7 @@ background-color: rgb(224, 90, 41);
   outline: none; 
   cursor: pointer;
   padding: 15px; 
-  border-radius: 15px;
+  border-radius: 20px;
   font-size: 18px;
   background-image: url('../images/button-up.png');
   background-size: cover;

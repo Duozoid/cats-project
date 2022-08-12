@@ -29,17 +29,37 @@
             <a href="index.html">
                 <h3 class="backto">Back to main page </h3>
               </a>
-            <h1 class="back-white">History of domestic cat<br></h1>
+            <h1 class="back-white">History of domestic cat<br> <hr width="100%" color="black" align="left" size="5"> 
+            </h1>
+            
         </div>
     <div class="text-history">
-<p>According to the review The Taming of the Cat, <br> carried out by a team of scientists from the <br> National Museum of Scotland, there are more <br> than 600 million domestic cats in the world.<br> <br></p>
-<p>The cat's triumphal path - <br> from the Egyptian Mau in the thickets <br> to Grumpy Cat.</p>
+<p class="mobile-text">According to the review The Taming of the Cat, <br> carried out by a team of scientists <br> from the National Museum of Scotland, <br>there are more than 600 million domestic cats <br> in the world.<br> <br></p>
+<p class="mobile-text">The cat's triumphal path — <br> from the Egyptian Mau in the thickets <br> to Grumpy Cat.</p>
 </div>
     </div>
   </div>
 </header>
 <main>
-<section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
     <section id="distortion-of-novelty" class="main background-light">
         <div class="container">
             <div class="flex-container ikea-description">
@@ -48,8 +68,8 @@
                 </div>
                 <div class="type-description-left">
                     <h2 class="section-title">Early ages</h2>
-                    <p>All the infinite variety of felines came from a small number of "first cats". Traditionally, it was believed that the cat was first domesticated in Ancient Egypt about 3,600 thousand years ago, however, recent archaeological research shows that "domestication" took place much earlier and in more than one place. All in the same review, The Taming of the Cat, a study of DNA belonging to nearly 1,000 wild and domesticated cats from around the Old World, concluded that the "domestication" of cats occurred in several different places, with each "domestication" possibly leading to the emergence of certain breeds (this can explain such a large difference between, for example, Persians and Orientals, or between Angora cats and Devon Rex).
-                        <p><br> <br>About 130 thousand years ago, the subspecies Felis silvestris lybica appeared in the deserts of North Africa. This subspecies still hunts in saxaul thickets and has absolutely no plans to die out. It is believed that about 5-9 thousand years ago, several steppe "primitive cats" of the subspecies Felis silvestris lybica (the so-called "mitochondrial Eves") were domesticated in the Middle East, each in its own place and in its own time.</p>
+                    <p class="history-text">All the infinite variety of felines came from a small number of "first cats". Traditionally, it was believed that the cat was first domesticated in Ancient Egypt about 3,600 thousand years ago, however, recent archaeological research shows that "domestication" took place much earlier and in more than one place. All in the same review, The Taming of the Cat, a study of DNA belonging to nearly 1,000 wild and domesticated cats from around the Old World, concluded that the "domestication" of cats occurred in several different places, with each "domestication" possibly leading to the emergence of certain breeds (this can explain such a large difference between, for example, Persians and Orientals, or between Angora cats and Devon Rex).
+                        <p class="history-text"><br> <br>About 130 thousand years ago, the subspecies Felis silvestris lybica appeared in the deserts of North Africa. This subspecies still hunts in saxaul thickets and has absolutely no plans to die out. It is believed that about 5-9 thousand years ago, several steppe "primitive cats" of the subspecies Felis silvestris lybica (the so-called "mitochondrial Eves") were domesticated in the Middle East, each in its own place and in its own time.</p>
                     </p>
                 </div>
             </div>
@@ -57,7 +77,18 @@
     </section>
 
 <section>
-    
+    <div class="container">
+        <div class="flex-container ikea-description">
+            <div>
+                <img class ="shadow img-right" src="" alt="">
+            </div>
+            <div class="type-description-left">
+                <h2 class="section-title">Egypt</h2>
+                    <p class="history-text">Text</p>
+                </p>
+            </div>
+        </div>
+    </div>
     </section>
 </main>
 </body>

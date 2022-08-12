@@ -97,6 +97,14 @@ h2 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.container-history {
+  position: relative;
+  width: 1110px;
+  height: 700px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .cat-container {
   position: relative;
@@ -116,6 +124,16 @@ h2 {
 
 .main-text {
   color: var(--main);
+}
+
+.backto {
+  position: absolute;
+  right: -150px;
+  bottom: 820px;
+  size: 8px;
+  color: aliceblue;
+  padding: 15px;
+  background-color: #1085c5;
 }
 
 .img-one {
@@ -418,3 +436,23 @@ background-color: #1085c5;
 .blue-text {
   color: var(--blue);
 }
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+

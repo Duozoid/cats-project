@@ -166,12 +166,11 @@ width: 700px;
 
 }
 
-#map {
-  z-index: 99; 
-
+.map {
+position: absolute;
 top: 85px;
-left: 1000px;
-height: 600px;
+left: 850px;
+height: 400px;
 }
 
 .text {
@@ -411,7 +410,6 @@ background-color: rgb(224, 90, 41);
 
 .type-description-left {
   position: relative;
-  height: 525px;
 }
 
 .ikea-title {

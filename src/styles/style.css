@@ -123,7 +123,12 @@ h2 {
   background-size: cover;
 }
 
-
+.history-2 {
+  background-image: url("../images/background-history-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .cat-container {
   position: relative;
@@ -155,6 +160,13 @@ h2 {
   border-radius: 10px/6px;
 }
 
+.footer-other {
+   position: absolute;
+  right: 400px;
+  bottom: 20px;
+  color: #f1f1f1;
+}
+
 hr {
   color: #25232c;
   size: 15px;
@@ -164,6 +176,21 @@ color: #42413c;
 columns: 1;
 width: 700px;
 
+}
+
+.text-footer {
+  margin-right: 160px;
+  font-size: 30px;
+  color: #fff;
+  padding: 0 10px 0 0;
+  margin-top: 100px;
+	font-size: 30px;
+  padding: 35px;
+  position: absolute;
+  left: -150px;
+  bottom: 380px;
+  size: 8px;
+  line-height: 1.5;
 }
 
 .map {

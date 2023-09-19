@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.ico" rel="icon"> 
+    <title>What is Cats?</title>
+    <style type="text/css">
+        @font-face {
+            font-family: "Open Sans";
+            src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+        }
+        @font-face {
+            font-family: "Neucha";
+            src: url(assets/fonts/Neucha-Regular.ttf) format("truetype");
+        }
+    </style>
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+
 </head>
-<body>
+<body class="main-background">
+  <header>
+    <div class="main main-theme overflow">
+    <div class="container">
+        <div> 
+            <h1 class="title-head"><span class="main-text">Is it a cat?<br></span></h1>
+        </div>
+    <div class="text mt-55">
+<p>Want to know is some specie a cat or not? <br> <br> Type it here and you'll know!</p>
+<div class="container">
+    <div class="subscription flex-container background-main-dark white-text">
+      <h3 class="subscription-title">Let us solve the mystery!</h3>
     <form action="">
-        <input type="text" name="word" placeholder="Enter a word">
-        <input type="submit" value="Submit">
+        <div class="flex-container mt-10">
+        <input type="text" name="word" placeholder="Enter the specie">
+        <input type="submit" value="Is it the cat?">
     </form>
     <script>
-  const cats = ["cat", "kitty", "tiger", "lion", "ocelot", "caracal", "black-footed cat"];
+  const cats = ["cat", "Cat", "kitty", "tiger", "lion", "ocelot", "caracal", "black-footed cat"];
 
 function isCat(word) {
   return cats.includes(word);
@@ -33,5 +59,16 @@ form.addEventListener("submit", function(event) {
   }
 });
     </script>
+    </div>
+</div>
+</div>
+</header>
+</body>
+<footer>
+<div class="contacts">
+    <p>&copy; 2022 Zoe's cats incorporation </p>
+  </div>
+</div>
+</footer>
 </body>
 </html>

@@ -18,67 +18,77 @@
         }
     </style>
     <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+
 </head>
-<body class="main-background">
-  <header>
-    <div class="overflow">
-    <div class="main main-theme overflow">
+<body class="species-background">
+  <header class="species">
+    <div class=" overflow">
+    <div class="container-history">
         <div> 
-            <a href="index.html">
+            <a href="what_is_cats.html">
                 <h3 class="backto">Back to main page </h3>
               </a>
+            <h1 class="white-text back-white">Who are cats?<br> <hr width="100%" color="black" align="left" size="5"> 
+            </h1>            
         </div>
-      <div class="container">
-          <div> 
-              <h1 class="title-head"><span class="main-text">Who are cats?<br></span></h1>
-          </div>
-      <div class="text mt-55">
-  <p>So many of them! Majestic tigers, <br> <br> fast cheetahs, deadly black-footed cats <br> <br> and incomparable domestic cats.</p>
-  <p><br> <br> Learn all of them!</p>
-  </div>
-      </div>
+    <div class="text-species">
+<p class="mobile-text">So many of them! <br> Fast cheetahs, deadly black-footed cats <br> and incomparable domestic cats.<br> <br></p>
+</div>
     </div>
-  </header>
+  </div>
+</header>
   <main>
-    <section id="navigation" class="pt-100">
-        <div class="cat-container card-circle flex-container flex-wrap">
-            <div class="card cat-header diamond">
-              <img src="https://example.com/image1.jpg" alt="Image 8">
-                <h3 class="card-title">Panthera</h3>
+      <section id="navigation" class="pt-100">
+          <div class="cat-container card-circle flex-container flex-wrap">      
+              <div class="panel-container">
+                  <div class="panel active" style="background-image: url('images/blackfootedcat.jpg')">
+                      <div><a href="black_footed_cat.html">Felis</a> </div>
+                  </div>
+                  <div class="panel" style="background-image: url('images/tiger.jpg')">
+                      <div>Panthera</div>
+                  </div>
+                  <div class="panel" style="background-image: url('images/puma.webp')">
+                      <div>Puma</div>
+                  </div>
+                  <div class="panel" style="background-image: url('images/lynx.jpg')">
+                      <div>Lynx</div>
+                  </div>
+                  <div class="panel" style="background-image: url('images/caracal.jpg')">
+                      <div>Caracal</div>
+                  </div>
+                  <div class="panel" style="background-image: url('images/leopardus.jpg')">
+                      <div>Leopardus</div>
+                  </div>
+                  <div class="panel" style="background-image: url('images/pardofelis.webp')">
+                      <div>Pardofelis</div>
+                  </div>
+                  <div class="panel" style="background-image: url('images/manul.webp')">
+                      <div>Otocolobus and Prionailurus</div>
+                  </div>
               </div>
-              <div class="cat-header card diamond">
-                <img src="https://example.com/image2.jpg" alt="Image 8">
-                <h3 class="card-title">Pardofelis</h3>
-              </div>
-              <div class="card diamond cat-header">
-                <img src="https://example.com/image3.jpg" alt="Image 8">
-                <h3 class="card-title">Leopardus</h3>
-              </div>
-              <div class="card diamond cat-header">
-                <img src="https://example.com/image4.jpg" alt="Image 8">
-                <h3 class="card-title">Caracal</h3>
-              </div>
-              <div class="card diamond cat-header lynx">
-              <img src="https://example.com/image5.jpg" alt="Image 8">
-                <h3 class="card-title">Lynx</h3>
-                <p>Short history of a cat's triumph</p>
-              </div>
-              <div href="" class="card diamond cat-header">
-                <img src="https://example.com/image6.jpg" alt="Image 8">
-                <h3 class="card-title">Puma</h3>
-                <p>Lions, tigers, domestic cats... Let's read about others!</p>
-              </div>
-              <div href="" class="card diamond cat-header">
-                <img src="https://example.com/image7.jpg" alt="Image 8">
-                <h3 class="card-title">Felis</h3>
-                <p>Interesting about is IT a cat or not? Type the specie and we'll know!</p>
-              </div>
-              <div class="cat-header card diamond">
-                <img src="https://example.com/image8.jpg" alt="Image 8">
-                <h3 class="card-title">Otocolobus and Prionailurus</h3>
-                <p>Interesting about is IT a cat or not? Type the specie and we'll know!</p>
-              </div>
-             
-  </main>
+          </div>
+<script>
+          const panels = document.querySelectorAll('.panel');
+    panels.forEach(panel => {
+        panel.addEventListener('click', () => {
+            removeActiveClasses();
+            panel.classList.add('active');
+        });
+    });
+    function removeActiveClasses() {
+        panels.forEach(panel => {
+            panel.classList.remove('active');
+        });
+    }
+</script>
+      </section>
+               
+    </main>
 </body>
+<footer>
+  <div class="contacts white-text">
+    <p>&copy; 2023 Zoe's cats incorporation </p>
+  </div>
+</div>
+</footer>
 </html>

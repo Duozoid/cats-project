@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.ico" rel="icon"> 
+    <title>What is Cats?</title>
+    <style type="text/css">
+        @font-face {
+            font-family: "Open Sans";
+            src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+        }
+        @font-face {
+            font-family: "Neucha";
+            src: url(assets/fonts/Neucha-Regular.ttf) format("truetype");
+        }
+    </style>
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+</head>
+<body class="main-background">
+  <header>
+    <div class="overflow">
+    <div class="main main-theme overflow">
+        <div> 
+            <a href="index.html">
+                <h3 class="backto">Back to main page </h3>
+              </a>
+        </div>
+      <div class="container">
+          <div> 
+              <h1 class="title-head"><span class="main-text">Who are cats?<br></span></h1>
+          </div>
+      <div class="text mt-55">
+  <p>So many of them! Majestic tigers, <br> <br> fast cheetahs, deadly black-footed cats <br> <br> and incomparable domestic cats.</p>
+  <p><br> <br> Learn all of them!</p>
+  </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <script>
+        const panels = document.querySelectorAll('.panel');
+  panels.forEach(panel => {
+      panel.addEventListener('click', () => {
+          removeActiveClasses();
+          panel.classList.add('active');
+      });
+  });
+  function removeActiveClasses() {
+      panels.forEach(panel => {
+          panel.classList.remove('active');
+      });
+  }
+      </script>
+    <section id="navigation" class="pt-100">
+        <div class="cat-container card-circle flex-container flex-wrap">      
+            <div class="panel-container">
+                <div class="panel active" style="background-image: url('images/blackfootedcat.jpg')">
+                    <div>Felis</div>
+                </div>
+                <div class="panel active" style="background-image: url('images/tiger.jpg')">
+                    <div>Panthera</div>
+                </div>
+                <div class="panel active" style="background-image: url('photo-1.jpg')">
+                    <div>Puma</div>
+                </div>
+                <div class="panel active" style="background-image: url('photo-1.jpg')">
+                    <div>Lynx</div>
+                </div>
+                <div class="panel active" style="background-image: url('photo-1.jpg')">
+                    <div>Caracal</div>
+                </div>
+                <div class="panel active" style="background-image: url('photo-1.jpg')">
+                    <div>Leopardus</div>
+                </div>
+                <div class="panel active" style="background-image: url('photo-1.jpg')">
+                    <div>Pardofelis</div>
+                </div>
+                <div class="panel active" style="background-image: url('photo-1.jpg')">
+                    <div>Otocolobus and Prionailurus</div>
+                </div>
+            </div>
+        </div>
+        
+   
+    </section>
+             
+  </main>
+</body>
+</html>

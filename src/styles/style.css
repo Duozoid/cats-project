@@ -87,6 +87,13 @@ h2 {
   content: "";
 }
 
+.felis {
+  background-image: url("../images/felis.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .back-white {
   padding: 10px;
   position: absolute;

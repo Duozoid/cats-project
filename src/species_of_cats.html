@@ -33,7 +33,8 @@
         </div>
     <div class="text-species">
 <p class="mobile-text">So many of them! <br> Fast cheetahs, deadly black-footed cats <br> and incomparable domestic cats.<br> <br></p>
-</div>
+</div> 
+<!-- нужно добавить больше текста -->
     </div>
   </div>
 </header>
@@ -48,7 +49,8 @@
                       <div>Panthera</div>
                   </div>
                   <div class="panel" style="background-image: url('images/puma.webp')">
-                      <div>Puma</div>
+                      <div>Puma</div> 
+                      <!-- проблема с фоткой - поправить  -->
                   </div>
                   <div class="panel" style="background-image: url('images/lynx.jpg')">
                       <div>Lynx</div>
@@ -67,19 +69,7 @@
                   </div>
               </div>
           </div>
-<script>
-          const panels = document.querySelectorAll('.panel');
-    panels.forEach(panel => {
-        panel.addEventListener('click', () => {
-            removeActiveClasses();
-            panel.classList.add('active');
-        });
-    });
-    function removeActiveClasses() {
-        panels.forEach(panel => {
-            panel.classList.remove('active');
-        });
-    }
+<script src="accordeon.js">
 </script>
       </section>
                

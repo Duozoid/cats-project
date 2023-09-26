@@ -499,33 +499,6 @@ background-color: rgb(224, 90, 41);
   position: relative;
 }
 
-.ikea-title {
-  font-family: Neucha, cursive;
-}
-
-.how-description {
-  background-color: var(--brown);
-
-  padding: 5px;
-
-  margin-bottom: 25px;
-
-  color: white;
-
-  text-transform: uppercase;
-}
-
-.how-description-light {
-
-  color: var(--brown);
-  background-color: var(--white);
-
-  padding: 5px;
-
-  margin-bottom: 25px;
-
-  text-transform: uppercase;
-}
 
 .type-title {
   margin-bottom: 16px;

@@ -1,4 +1,4 @@
-const cats = ["cat", "Cat", "kitty", "tiger", "lion", "ocelot", "caracal", "black-footed cat"];
+const cats = ["cat", "Cat", "kitty", "tiger", "lion", "ocelot", "caracal", "black-footed cat", "serval","puma","cheetah","margarita","blackfooted","black-footed","pallas","pallas cat","leopardus","ocelot","domestic cat","yagouaroundi",];
 
 function isCat(word) {
   return cats.includes(word);

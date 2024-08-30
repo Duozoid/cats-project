@@ -94,6 +94,49 @@ h2 {
   background-size: cover;
 }
 
+.panthera {
+  background-image: url("../images/panthera.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.puma {
+  background-image: url("../images/puma-back.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lynx {
+  background-image: url("../images/lynx-back.avif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.caracal {
+  background-image: url("../images/caracal.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.leopardus {
+  background-image: url("../images/oce-back.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pardofelis {
+  background-image: url("../images/borneo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .back-white {
   padding: 10px;
   position: absolute;
@@ -228,6 +271,29 @@ left: 850px;
 height: 400px;
 }
 
+.map-text {
+  position: absolute;
+  top: 500px;
+  left: 850px;
+  font-size: 20px;
+  width: 550px;
+}
+
+.lybica {
+  position: absolute;
+  top: 650px;
+  left: 850px;
+  height: 400px;
+  }
+
+  .lybica-text {
+    position: absolute;
+    top: 1070px;
+    left: 850px;
+    font-size: 20px;
+    width: 550px;
+  }
+
 .text {
   margin-right: 160px;
   font-size: 30px;
@@ -355,6 +421,16 @@ background-color: rgb(224, 90, 41);
 
 .background-light {
   background-color: var(--light);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  
+  content: "";
 }
 
 .types {

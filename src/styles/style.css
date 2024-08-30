@@ -137,6 +137,13 @@ h2 {
   background-size: cover;
 }
 
+.otocolobus {
+  background-image: url("../images/otocolobus.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .back-white {
   padding: 10px;
   position: absolute;

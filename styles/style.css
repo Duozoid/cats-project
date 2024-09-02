@@ -23,7 +23,6 @@ h3,
 h4 {
   margin: 0;
   padding: 0;
-
   border: 0;
 }
 
@@ -79,11 +78,9 @@ h2 {
   right: 0;
   bottom: 0;
   left: 0;
-
   background-color: #000000;
   background-size: cover;
-  opacity: 1;
-  
+  opacity: 1;  
   content: "";
 }
 
@@ -114,7 +111,6 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .caracal {
   background-image: url("../images/caracal.jpg");
@@ -150,7 +146,6 @@ h2 {
   right: -150px;
   bottom: 520px;
   size: 25px;
-  
 }
 
 
@@ -160,25 +155,22 @@ h2 {
   right: 0;
   bottom: 0;
   left: 0;
-
   background-image: url("../images/blackfootedcat.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
-  
   content: "";
-
-
 }
+
 .container {
   position: relative;
   z-index: 2;
-
   width: 1110px;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .container-history {
   position: relative;
   width: 1110px;
@@ -216,6 +208,7 @@ h2 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .title-head {
   z-index: 2;
   font-weight: normal;
@@ -249,11 +242,11 @@ hr {
   color: #25232c;
   size: 15px;
 }
+
 .history-text {
 color: #42413c;
 columns: 1;
 width: 700px;
-
 }
 
 .text-footer {
@@ -406,7 +399,6 @@ background-color: rgb(224, 90, 41);
 .flex-wrap {
   flex-wrap: wrap;
   row-gap: 20px;
-
   column-gap: 30px;
 }
 
@@ -432,11 +424,9 @@ background-color: rgb(224, 90, 41);
   right: 0;
   bottom: 0;
   left: 0;
-
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
-  
   content: "";
 }
 
@@ -468,7 +458,6 @@ background-color: rgb(224, 90, 41);
 
 .card-title {
   margin-bottom: 16px;
-
   color: var(--main);
   font-weight: normal;
   font-size: 34px;
@@ -506,7 +495,6 @@ background-color: rgb(224, 90, 41);
 
 .submit {
   position: relative;
-
   width: 70px;
   height: 50px;
 }
@@ -517,12 +505,10 @@ background-color: rgb(224, 90, 41);
   right: 0;
   bottom: 0;
   left: 0;
-
   background-color: var(--main);
   background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   background-position: center;
-
   content: "";
 }
 
@@ -532,7 +518,6 @@ background-color: rgb(224, 90, 41);
 
 .section-title {
   margin-bottom: 30px;
-
   color: var(--dark);
   font-weight: normal;
   font-size: 60px;
@@ -651,7 +636,6 @@ background-color: rgb(224, 90, 41);
 @media screen and (max-width: 600px) {
 
   .history {
-
   background-image: url("../images/background-history-mobile.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -660,9 +644,6 @@ background-color: rgb(224, 90, 41);
 
  .mobile-text {
   font-size: 30px;
-}
-
-
 }
 
 .card-circle {
@@ -701,6 +682,7 @@ background-color: rgb(224, 90, 41);
   margin: 20px 0;
   height: 400px;
 }
+
 .panel {
   background-size: cover;
   background-position: center;
@@ -713,6 +695,7 @@ background-color: rgb(224, 90, 41);
   margin: 0 8px;
   transition: flex 0.7s cubic-bezier(0.05, 0.6, 0.4, 0.9);
 }
+
 .panel div {
   text-shadow: 0 0 12px rgba(0,0,0,0.5), 0 2px 6px rgba(0,0,0,0.7);  
   font-family: Verdana, sans-serif;  
@@ -725,17 +708,21 @@ background-color: rgb(224, 90, 41);
   margin: 0;
   transition: opacity 0s ease-in 0s;
 }
+
 .panel.active {
   flex: 5;
 }
+
 .panel.active div {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
+
 @media screen and (max-width: 480px) {
   .panel-container {
       position: relative;
   }
+
   .panel {
       width: 10%;
       position: relative;
@@ -745,6 +732,7 @@ background-color: rgb(224, 90, 41);
       box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
       flex: 1;
   }
+
   .panel.active {
       flex: 1;
       width: 100%;
@@ -754,5 +742,4 @@ background-color: rgb(224, 90, 41);
       margin: 40px 0 0;
       z-index: -1;
       box-shadow: none;
-  }
 }

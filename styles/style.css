@@ -126,11 +126,17 @@ h2 {
 
 }
 
+.laur {
+height: 120px;
+margin-left: 800pt;
+margin-top: -100pt;
+}
+
 .main-background {
   position: absolute;
-  top: 0;
+  top: -40pt;
   right: 0;
-  bottom: 0;
+  bottom: 10pt;
   left: 0;
   background-image: url("../images/background.png");
   background-repeat: no-repeat;

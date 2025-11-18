@@ -132,6 +132,11 @@ margin-left: 800pt;
 margin-top: -100pt;
 }
 
+.names {
+  background-color:#b09a81;
+  opacity: 40%;
+}
+
 .main-background {
   position: absolute;
   top: -40pt;
